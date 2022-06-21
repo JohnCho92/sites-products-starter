@@ -10,7 +10,7 @@ module.exports = {
         analytics: "./src/analytics.js"
       }, 
     output: {
-        filename: 'index.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'assets'),
         clean: true
     },
